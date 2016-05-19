@@ -26,7 +26,7 @@ $config['theme'] = 'Peafowl';  // Place the case-sensitive folder name of your t
  * Default language display
  * If you need to add a new language just create a new xx.php file under includes/lang/ then change 'en' to 'xx'
  */
-$config['lang'] = 'en'; // en - English | es - Spanish | etc...
+$config['lang'] = 'es'; // en - English | es - Spanish | etc...
 
 
 /**
@@ -40,20 +40,20 @@ $config['auto_lang'] = true; // Values: true | false
 /**
  * Site details
  */ 
-$config['site_name']		= 'MyWebsite';
+$config['site_name']		= 'IMAGO';
 $config['doctitle']			= 'MyWebsite image hosting';
-$config['meta_description'] = 'MyWebsite is a free image hosting service powered by Chevereto image hosting script';
+$config['meta_description'] = 'Un hosting de imagen con calidad.';
 $config['meta_keywords']	= 'images, photos, image hosting, photo hosting, free image hosting';
 
 
 /**
  * Database details (MySQL)
  */ 
-$config['db_host'] = 'localhost'; // localhost is mostly the default on all servers. Do not indicate port here!
+$config['db_host'] = 'mysql7.000webhost.com'; // localhost is mostly the default on all servers. Do not indicate port here!
 $config['db_port'] = ''; // Some servers needs to indicate the port of the database hostname - default: don't set it
-$config['db_name'] = 'chevereto'; // Database must exists
-$config['db_user'] = 'root'; // Database user with access to the above database name
-$config['db_pass'] = '';
+$config['db_name'] = 'a8391417_01'; // Database must exists
+$config['db_user'] = 'a8391417_01'; // Database user with access to the above database name
+$config['db_pass'] = 'Vesper22.';
 
 
 /**
@@ -174,7 +174,7 @@ $config['virtual_folder_uploaded']	= 'uploaded'; // used on multiupload image pr
  * This values are globally afected by PHP configuration located in php.ini.
  * This limits have a maximum setted by yout hosting company, Chevereto can't override them.
  */
-$config['max_filesize'] = "2 MB"; // Allowed maximum image size to be uploaded - default: 2 MB
+$config['max_filesize'] = "10 MB"; // Allowed maximum image size to be uploaded - default: 2 MB
 
 $config['thumb_width']	= 100; // Thumb width in pixels - default: 100
 $config['thumb_height'] = 90; // Thumb height in pixels - default: 90
@@ -353,7 +353,7 @@ $config['watermark_opacity'] = 30; // Values: 0 -> 100
  * Default: 'auto'
  * @since 2.4.2
  */
-$config['root_dir']		= 'auto'; // Values: auto | /home/user/public_html/chevereto/
+$config['root_dir']		= '/home/a8391417'; // Values: auto | /home/user/public_html/chevereto/
 $config['relative_dir']	= 'auto'; // Values: auto | /chevereto/
 
 /*** CloudFlare IP workaround ***/
